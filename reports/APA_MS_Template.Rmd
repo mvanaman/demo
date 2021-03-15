@@ -1,9 +1,9 @@
 ---
-title             : "The title"
-shorttitle        : "Title"
+title             : "Added a Title"
+shorttitle        : ""
 
 author: 
-  - name          : "First Author"
+  - name          : "Matthew E. Vanaman"
     affiliation   : "1"
     corresponding : yes    # Define only one corresponding author
     address       : "Postal address"
