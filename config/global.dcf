@@ -1,0 +1,21 @@
+version: 0.10.1
+data_loading: TRUE
+data_loading_header: TRUE
+data_ignore:
+cache_loading: TRUE
+recursive_loading: FALSE
+munging: TRUE
+logging: FALSE
+logging_level: INFO
+load_libraries: TRUE
+libraries: skimr, tidyverse, tidymodels, effectsize, lme4, lmerTest,
+           psych, lavaan, GPArotation, lmtest, reghelper, xtable,
+           papaja, ggpubr, janitor, ggExtra, naniar, wesanderson,
+           apaTables, MBESS, GGally, kableExtra, Superpower
+as_factors: FALSE
+tables_type: tibble
+attach_internal_libraries: FALSE
+cache_loaded_data:  TRUE
+sticky_variables: NONE
+underscore_variables: TRUE
+cache_file_format: RData

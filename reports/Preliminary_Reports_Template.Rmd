@@ -1,0 +1,40 @@
+---
+title: "Temporary Name"
+author: "*Prepared by:* Matthew E. Vanaman"
+date: '`r format(Sys.Date(), "%m-%d-%Y")`'
+monofont: Courier New
+header-includes: 
+  - \usepackage{tikz, xcolor, listings, booktabs, caption, geometry, rotating, setspace, csquotes, float, titling, fancyhdr, indentfirst, calc}
+  - \renewcommand{\contentsname}{\begin{center}Table of Contents\end{center}}
+output:
+  bookdown::pdf_document2:
+    latex_engine: xelatex
+    toc: yes
+    toc_depth: 3
+    fig_caption: yes
+    number_sections: no
+word_document: default
+geometry: margin = 0.75in
+indent: yes
+
+---
+
+`r knitr::opts_knit$set(root.dir='..')`
+
+```{r, include=FALSE}
+# R Markdown renders from a blank R environment
+# So need to load project, which will happen during rendering
+# Line 22 above allows output to render specifically to this folder
+library(ProjectTemplate)
+load.project()
+```
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, comment = NA, warning = FALSE, message = FALSE)
+options(scipen = 999, papaja.comment = FALSE)
+```
+
+\captionsetup{justification = raggedright, singlelinecheck = false}
+\newcommand{\mybottomrule}{\specialrule{0.15ex}{0em}{0em}} 
+\newpage
