@@ -8,14 +8,14 @@ author:
     corresponding : yes    # Define only one corresponding author
     address       : "Postal address"
     email         : "my@email.com"
-  - name          : "Ernst-August Doelle"
+  - name          : "Matthew E. Vanaman's Evil Doppleganger That Lives Under The Prospect Park Station Bridge"
     affiliation   : "1,2"
 
 affiliation:
   - id            : "1"
     institution   : "Wilhelm-Wundt-University"
   - id            : "2"
-    institution   : "Konstanz Business School"
+    institution   : "Troll University"
 
 authornote: |
   Add complete departmental affiliations for each author here. Each new line herein must be indented, like this line.
